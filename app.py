@@ -274,8 +274,7 @@ if uploaded_file is not None:
 
         ## 圖片
 
-        st.subheader("🚀 買賣超對照圖(感謝 B大 大力協助 🙏)")
-        st.caption("🎉特別感謝B大🎉 提供此圖表程式碼")
+        st.subheader("🚀 買賣超對照圖")
         fig = analyzer.create_visualization(df_buy, df_sell, date_str)
 
         # 將圖形儲存到 BytesIO
